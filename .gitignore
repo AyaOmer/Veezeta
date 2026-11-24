@@ -1,0 +1,29 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
